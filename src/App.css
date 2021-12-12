@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+.header{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 12px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+    width: 10rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-top{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-tools{
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.main-tools-icon{
+    border-radius: 0 !important;
+    padding: 16px !important;
+    border-bottom:1px solid #ebebeb !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-tools :hover{
+    background-color: #bbb8b8 !important;
 }
+.main-center-imgdiv{
+    width: 700px;
+    height: 500px;
+    text-align: center;
+}
+.main-center-imgdiv-image{
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main-center-imgdiv-emptyimage{
+    width:30rem;
+}
+h3{
+    text-align: center;
+}
+.main-actions{
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.MuiButton-textPrimary{
+    background-color: #975bdf !important;
+    color: white !important;
+    padding: 7px 6rem !important;
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    font-family: sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 0.95rem;
+}
+.main-actions-upload{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main-actions-upload-title{
+    text-align: center;
+    color: #975bdf;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    padding: 16px;
+}
+.main-actions-upload-section-file{
+    display: none;
+}
+.main-actions-upload-section{
+    padding:4rem 0;
+    background-color: #f1efef;
+}
+.main-actions-upload-section-label{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    border: 2.5px dashed #cdcdcd;
+    padding: 16px;
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+}
+.main-center-canvasdiv{
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.main-carousel{
+    padding:0 1rem;
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main-carousel-item{
+    padding:1rem 0;
+    height: 7.5rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+.main-carousel-selecteditem{
+    padding:1rem 0;    
+    border-bottom: 7px solid #975bdf;
+    border-radius: 5px;
+    height: 7.5rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+.InfiniteCarouselSlide{
+    width: 10rem !important;
+    cursor: pointer;
+}
+/* .sc-dnqmqq{
+    padding:1rem 0;
+} */
