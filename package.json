@@ -2,7 +2,7 @@
   "name": "assessment",
   "homepage": "http://rohit0301.github.io/Round2_ROI", 
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
